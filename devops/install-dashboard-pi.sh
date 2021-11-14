@@ -34,7 +34,7 @@ mkdir /var/versates/logs
 APP="mining-monitor"
 echo "Installing $APP......"
 cd $ROOT_PATH
-git clone https://codegik@bitbucket.org/versahub/$APP.git
+git clone https://github.com/codegik/$APP.git
 cd $APP
 git checkout $BRANCH
 npm install
@@ -49,17 +49,22 @@ sudo update-rc.d $APP defaults
 APP="mining-monitor-web"
 echo "Installing $APP......"
 cd $ROOT_PATH
-git clone https://codegik@bitbucket.org/versahub/$APP.git
+git clone https://github.com/codegik/$APP.git
 cd $APP
 git checkout $BRANCH
+sudo cp -r devops/* /
+sudo chmod +x $ROOT_PATH/$APP.sh
+sudo chmod +x /etc/init.d/$APP
 ng build --prod
 sudo rm -rf /var/www/html/*
 sudo cp -r dist/* /var/www/html/
+cd /etc/init.d/
+sudo update-rc.d $APP defaults
 
 APP="mining-monitor-backup"
 echo "Installing $APP......"
 cd $ROOT_PATH
-git clone https://codegik@bitbucket.org/versahub/$APP.git
+git clone https://github.com/codegik/$APP.git
 cd $APP
 npm install
 

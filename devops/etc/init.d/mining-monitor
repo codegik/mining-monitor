@@ -22,7 +22,7 @@ case "$1" in
       ;;
   stop)
       log_begin_msg "Stopping mining-monitor unfortunately"
-      curl -Is http://172.16.0.9:8100/shutdown | head -1
+      curl -Is http://172.0.0.1:8100/shutdown | head -1
       log_end_msg $?
       exit 0
       ;;
