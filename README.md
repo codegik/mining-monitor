@@ -11,3 +11,6 @@ Then run the command to install the services `mining-monitor`, `mining-monitor-w
 cd devops
 ./install-dashboard-pi.sh
 ```
+
+## Architecture
+![Architecture](https://github.com/codegik/mining-monitor/blob/master/design.png?raw=true)
