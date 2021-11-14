@@ -1,0 +1,39 @@
+Reply was 'STATUS=S,When=1506788462,Code=11,Msg=Summary,Description=bmminer 1.0.0|SUMMARY,Elapsed=315,GHS 5s=13738.02,GHS av=13803.42,Found Blocks=0,Getworks=23,Accepted=126,Rejected=7,Hardware Errors=0,Utility=24.00,Discarded=153,Stale=2,Get Failures=2,Local Work=16207,Remote Failures=1,Network Blocks=3,Total MH=4334274023.0000,Work Utility=212992.00,Difficulty Accepted=974848.00000000,Difficulty Rejected=143360.00000000,Difficulty Stale=0.00000000,Best Share=4279834,Device Hardware%=0.0000,Device Rejected%=12.8205,Pool Rejected%=12.8205,Pool Stale%=0.0000,Last getwork=1506788461|'
+[STATUS] =>
+(
+   [STATUS] => S
+   [When] => 1506788462
+   [Code] => 11
+   [Msg] => Summary
+   [Description] => bmminer 1.0.0
+)
+[SUMMARY] =>
+(
+   [0] => SUMMARY
+   [Elapsed] => 315
+   [GHS 5s] => 13738.02
+   [GHS av] => 13803.42
+   [Found Blocks] => 0
+   [Getworks] => 23
+   [Accepted] => 126
+   [Rejected] => 7
+   [Hardware Errors] => 0
+   [Utility] => 24.00
+   [Discarded] => 153
+   [Stale] => 2
+   [Get Failures] => 2
+   [Local Work] => 16207
+   [Remote Failures] => 1
+   [Network Blocks] => 3
+   [Total MH] => 4334274023.0000
+   [Work Utility] => 212992.00
+   [Difficulty Accepted] => 974848.00000000
+   [Difficulty Rejected] => 143360.00000000
+   [Difficulty Stale] => 0.00000000
+   [Best Share] => 4279834
+   [Device Hardware%] => 0.0000
+   [Device Rejected%] => 12.8205
+   [Pool Rejected%] => 12.8205
+   [Pool Stale%] => 0.0000
+   [Last getwork] => 1506788461
+)
